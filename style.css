@@ -1,0 +1,43 @@
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2%; 
+    padding-left: 5%;
+    
+
+
+}
+
+.logo{
+    width: 100px;
+
+}
+.logo img{
+     width: 100%;
+} 
+
+.navigationbar{
+    color: blue;
+    font-size: 1.5rem;
+    margin: 1rem;
+    position: relative;
+}
+
+.navigationbar a:hover{
+    color: aqua;
+}
