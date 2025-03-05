@@ -1,0 +1,90 @@
+
+.patient-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #007bff; 
+  }
+  
+ 
+  .table-wrapper {
+    width: 50%; 
+    background-color: white; 
+    border-radius: 8px; 
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add Button */
+  .add-button {
+    padding: 8px 16px;
+    background-color: #28a745; /* Equivalent to btn-success */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Patient Table */
+  .patient-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patient-table th,
+  .patient-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .patient-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+
+  /* Action Buttons Container */
+.action-buttons {
+    display: flex;
+    gap: 8px; /* Space between buttons */
+  }
+  
+  /* Update Button */
+  .update-button {
+    padding: 6px 12px;
+    background-color: #007bff; /* Equivalent to btn-primary */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    padding: 6px 12px;
+    background-color: #dc3545; /* Equivalent to btn-danger */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #a71d2a; /* Darker red on hover */
+  }
